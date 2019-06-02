@@ -1,0 +1,7 @@
+@mixin stand-styling($font-size,$color) {
+    font-size: $font-size;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 1em;
+    color: $color;
+    
+}

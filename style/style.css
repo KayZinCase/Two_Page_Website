@@ -1,0 +1,49 @@
+body:hover a {
+  border: 1px solid aqua;
+}
+
+body .container {
+  font-size: 13px;
+  font-family: 'Times New Roman', Times, serif;
+  word-spacing: 1em;
+  color: aqua;
+  width: 1000px;
+  height: 700px;
+  margin: 0 auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+  border-spacing: 20px;
+  justify-items: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  background-color: aqua;
+  font: 1em sans-serif;
+}
+
+body icon-icon[name="happy"] {
+  width: 100px;
+  height: 100px;
+}
+
+body ul[class*="nav"] {
+  text-align: center;
+  background-color: powderblue;
+}
+
+body:hover a {
+  color: gold;
+  font-size: 73px;
+  font-family: 'Times New Roman', Times, serif;
+  word-spacing: 1em;
+  color: gold;
+  font-size: 20px;
+}
+
+body iframe {
+  width: 560px;
+  height: 320px;
+}
+/*# sourceMappingURL=style.css.map */

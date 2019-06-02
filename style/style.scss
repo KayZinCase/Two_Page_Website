@@ -1,0 +1,50 @@
+@import "./components/mixin";
+@import "./components/variable";
+
+%shared-style{
+    border: 1px solid $main-color;
+}
+
+body{
+    .container{
+
+        @include stand-styling(13px,$original-color);
+            width: 1000px;
+            height:700px;
+            margin: 0 auto;
+            grid-column-gap: 10px;
+            grid-row-gap: 20px;
+            border-spacing: 20px;
+
+        justify-items: stretch;
+      align-content: stretch;
+      align-items: stretch;
+      background-color: $original-color;
+      font: 1em sans-serif;
+    }
+    icon-icon[name="happy"]{
+        width: 100px;
+      height: 100px;
+      }
+
+      ul[class*="nav"]
+      {
+          text-align: center;  
+          background-color: powderblue;
+
+      }
+        &:hover{
+            a{
+                color:$hover-color;
+                @include stand-styling(73px,$hover-color);
+                @extend %shared-style;
+                font-size: 20px;
+            }
+        }
+        iframe{
+            width :560px;
+             height:320px;
+          }
+    }
+
+    
